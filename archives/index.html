@@ -1,81 +1,12 @@
-<!DOCTYPE html>
-<html lang=>
-  <head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  
-    <link rel="icon" href="/favicon.ico">
-  
-    
-  <title>Archives | Arthur</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="/lib/jquery.fancybox.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+extends partial/layout
 
-<body>
-  <header>
-  <div class="header-container">
-    <a class="logo" href="/">
-      <span>Arthur</span>
-    </a>
-    <ul class="right-header">
-      
-        <li class="nav-item">
-          
-            <a href="/" class="item-link">首页</a>
-          
-        </li>
-      
-        <li class="nav-item">
-          
-            <a href="/about" class="item-link">关于</a>
-          
-        </li>
-      
-        <li class="nav-item">
-          
-            <a href="/archives" class="item-link active">归档</a>
-          
-        </li>
-      
-        <li class="nav-item">
-          
-            <a href="/tags" class="item-link">标签</a>
-          
-        </li>
-      
-    </ul>
-  </div>
-</header>
+block container
+    include mixins/post
+    +postList()
 
-  <main id="archive">
-  <div class="content">
-        
-    
-      <div class="year-list">
-        <h3>2019</h3>
-        <ul>
-          
-            <li>
-              <time>2019/01/28</time>
-              <a href="/2019/01/28/Kubernetes源码阅读—kubelet(一)/">
-                <span>
-                    Kubernetes源码阅读—kubelet(一).md
-                </span>
-              </a>
-            </li>
-          
-        </ul>
-      </div>
-        
-  </div>
-</main>
+block pagination
+    include mixins/paginator
+    +home()
 
-  
-
-</body>
-</html>
+block copyright
+    include partial/copyright
