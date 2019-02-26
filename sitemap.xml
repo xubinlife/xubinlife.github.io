@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xizie.com/2019/02/25/Kubernetes%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E2%80%94kubectl(%E4%B8%80)/</loc>
+    
+    <lastmod>2019-02-26T01:38:10.653Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xizie.com/2019/01/30/Kubernetes%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E2%80%94kubelet(%E4%BA%8C)/</loc>
     
-    <lastmod>2019-02-25T07:19:12.767Z</lastmod>
+    <lastmod>2019-02-26T01:33:45.438Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>http://xizie.com/2019/01/28/Kubernetes%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E2%80%94kubelet(%E4%B8%80)/</loc>
     
     <lastmod>2019-02-25T07:18:57.583Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xizie.com/2019/02/25/Kubernetes%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E2%80%94kubectl(%E4%B8%80)/</loc>
-    
-    <lastmod>2019-02-25T07:16:25.693Z</lastmod>
     
   </url>
   
